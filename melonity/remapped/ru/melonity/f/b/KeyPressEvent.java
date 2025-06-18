@@ -1,0 +1,11 @@
+// ремапили ребята из https://t.me/dno_rumine
+package ru.melonity.f.b;
+
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import ru.melonity.f.IIllIllIIllIlIIlIlIIlllIllIIllIIllIlIIllIIIllIIIllIIllIIIlIllIIlIIlllIllIIlIllIllIIlIIlIlIIIlIllIIllIlllIllIIIllIIlIIlllIllIIlIIIlIIllIIllIIlIlIIlIllIIlllIlIIlllIIlIlIIlIIlIlllIIlIIIlIIllIllIlllIIlllIIIlIIllIIIlll;
+
+@Environment(EnvType.CLIENT)
+public record KeyPressEvent(int keyCode) implements IIllIllIIllIlIIlIlIIlllIllIIllIIllIlIIllIIIllIIIllIIllIIIlIllIIlIIlllIllIIlIllIllIIlIIlIlIIIlIllIIllIlllIllIIIllIIlIIlllIllIIlIIIlIIllIIllIIlIlIIlIllIIlllIlIIlllIIlIlIIlIIlIlllIIlIIIlIIllIllIlllIIlllIIIlIIllIIIlll {
+    public static int SPECIAL_KEY_CODE = 546796328;
+}
